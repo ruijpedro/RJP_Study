@@ -1,18 +1,25 @@
-# RJP Study
+# RJP_Study v2
 
-Aplicação PWA/Android para apoio ao estudo.
+Aplicação PWA + Android para organização de estudo.
 
 ## Inclui
-- Dashboard de estudo
-- Alunos genéricos
-- Disciplinas
+- Disciplinas editáveis
 - Avaliações
-- Documentos/PDFs
-- Plano inteligente por disciplina
-- Calendário
-- Área Admin preparada para Google Drive, Sheets e Calendar
+- Documentos/PDFs por disciplina
+- Exercícios com estados: Pendente, Resolvido, Rever, Não percebi
+- Plano automático de estudo
+- Calendário interno
+- Estatísticas
+- Disclaimer no primeiro arranque
+- Ícone RJP Study preparado para PWA e APK Android
+- Estrutura preparada para Google Login, Drive, Sheets e Calendar
 
-## Como usar
-Carregar estes ficheiros no GitHub, como nos projetos ChutaXuta/CAP.
+## Build local
+```bash
+npm install
+npm run build
+npm run dev
+```
 
-A Action `build-android.yml` gera o APK.
+## Android via GitHub Actions
+Carrega todos os ficheiros para a raiz do repositório. A Action `Build RJP Study Android` gera o APK nos Artifacts.

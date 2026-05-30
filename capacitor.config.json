@@ -3,23 +3,16 @@
   "appName": "RJP Study",
   "webDir": "dist",
   "bundledWebRuntime": false,
-
   "server": {
     "androidScheme": "https"
   },
-
-  "android": {
-    "allowMixedContent": true
-  },
-
   "plugins": {
     "SplashScreen": {
-      "launchShowDuration": 2000,
+      "launchShowDuration": 1800,
       "launchAutoHide": true,
       "backgroundColor": "#08284A",
       "showSpinner": false
     },
-
     "StatusBar": {
       "style": "dark",
       "backgroundColor": "#08284A"
